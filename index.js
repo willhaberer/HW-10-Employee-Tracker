@@ -6,7 +6,7 @@ const startApp = () => {
       {
         type: "list",
         message: "What would you like to do?",
-        name: "function",
+        name: "task",
         choices: [
           "View All Departments",
           "View All Roles",
@@ -19,7 +19,7 @@ const startApp = () => {
       },
     ])
     .then((response) => {
-      console.log(response);
+      return response;
     });
 };
 
