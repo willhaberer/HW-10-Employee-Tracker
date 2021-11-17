@@ -18,9 +18,7 @@ const startApp = () => {
         ],
       },
     ])
-    .then((response) => {
-      return response;
-    });
+    .then((response) => {});
 };
 
 module.exports = startApp;
